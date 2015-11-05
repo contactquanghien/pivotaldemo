@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - '0.10'
+before_script:
+  - "npm --version"
+notifications:
+  email: false
+deploy:
+ api_key: 69c76fd9d6630edcd656b9a696beb5b88c73b329
+ skip_cleanup: true
+ provider: cloudfoundry
+ api: https://api.run.pivotal.io
+ username:
+   secure: cuong.chung@harveynash.vn
+ password:
+   secure: 8970627cuong
+ organization: Pivotal_demo
+ space: development
+ on:
+   repo: contactquanghien/pivotaldemo
+   branch: master
+   tags: true

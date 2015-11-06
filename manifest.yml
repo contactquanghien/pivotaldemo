@@ -1,0 +1,5 @@
+---
+applications:
+- name: hvndemo
+  memory: 1G
+  no-hostname: true

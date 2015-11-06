@@ -5,4 +5,4 @@ applications:
   hostname: hvndemo.cfapps.io
   no-route: true
   services:
-    - mongolab
+    - mongodb

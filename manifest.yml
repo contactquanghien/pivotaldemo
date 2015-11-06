@@ -2,7 +2,7 @@
 applications:
 - name: hvndemo
   memory: 1G
-  no-hostname: true
+  hostname: hvndemo.cfapps.io
   no-route: true
   services:
     - mongolab

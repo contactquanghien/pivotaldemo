@@ -4,5 +4,6 @@ applications:
   memory: 1G
   hostname: hvndemo
   domain: cfapps.io
+  routes: hvndemo
   services:
     - mongodb

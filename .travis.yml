@@ -19,4 +19,5 @@ deploy:
  on:
    repo: contactquanghien/pivotaldemo
    branch: master
-   tags: true
+#   tags: true
+#   all_branches: true
